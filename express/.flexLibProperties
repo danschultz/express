@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" version="3">
+  <includeClasses>
+    <classEntry path="express.date.now"/>
+    <classEntry path="express.date.tomorrow"/>
+    <classEntry path="express.date.yesterday"/>
+    <classEntry path="express.date.Dates"/>
+    <classEntry path="express.IExpressable"/>
+    <classEntry path="express.Prototype"/>
+    <classEntry path="express.express"/>
+    <classEntry path="express.ExpressCore"/>
+    <classEntry path="express.core.Core"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

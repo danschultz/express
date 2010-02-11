@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="" >
+<testsuite  name="Default Test Suite" project="express_tests">
+<testsuite name="express.date.tests:DatePrototypeTests" type="testsuiteclass"/>
+<testsuite name="express.tests:ExpressCoreTests" type="testsuiteclass"/>
+<testsuite name="express.date.tests:CreateDateTests" type="testcaseclass"/>
+</testsuite>
+</testrun>
