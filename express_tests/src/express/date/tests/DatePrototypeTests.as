@@ -1,7 +1,7 @@
 package express.date.tests
 {
 	import express.date.Dates;
-	import express.express;
+	import express.embed;
 	
 	import org.flexunit.assertThat;
 	import org.flexunit.assumeThat;
@@ -15,7 +15,7 @@ package express.date.tests
 		[Before]
 		public function before():void
 		{
-			express(Dates);
+			embed(Dates);
 		}
 		
 		[DataPoints]

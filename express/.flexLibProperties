@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <flexLibProperties includeAllClasses="true" version="3">
   <includeClasses>
     <classEntry path="express.date.now"/>
@@ -7,9 +7,15 @@
     <classEntry path="express.date.Dates"/>
     <classEntry path="express.IExpressable"/>
     <classEntry path="express.Prototype"/>
-    <classEntry path="express.express"/>
     <classEntry path="express.ExpressCore"/>
     <classEntry path="express.core.Core"/>
+    <classEntry path="express.object.Objects"/>
+    <classEntry path="express.reflection.Reflection"/>
+    <classEntry path="express.array.Arrays"/>
+    <classEntry path="express.range.NumericRange"/>
+    <classEntry path="express.range.IRange"/>
+    <classEntry path="express.range.Ranges"/>
+    <classEntry path="express.range.from"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
-					   xmlns:s="library://ns.adobe.com/flex/spark" 
-					   xmlns:mx="library://ns.adobe.com/flex/halo" xmlns:flexunit="flexunit.flexui.*"    creationComplete="onCreationComplete()" >	
-<fx:Script>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" xmlns:flexunit="flexunit.flexui.*"    creationComplete="onCreationComplete()" >	
+<mx:Script>
 	<![CDATA[
 
 		import org.flexunit.runner.Request;
 		import express.tests.ExpressCoreTests;
 		import express.date.tests.DatePrototypeTests;
+		import express.reflection.tests.ReflectionPrototypeTests;
+		import express.range.tests.NumericRangeTests;
 		import express.date.tests.CreateDateTests;
 
 		public function currentRunTestSuite():Array
@@ -15,6 +15,8 @@
 			var testsToRun:Array = new Array();
 			testsToRun.push(express.tests.ExpressCoreTests);
 			testsToRun.push(express.date.tests.DatePrototypeTests);
+			testsToRun.push(express.reflection.tests.ReflectionPrototypeTests);
+			testsToRun.push(express.range.tests.NumericRangeTests);
 			testsToRun.push(express.date.tests.CreateDateTests);
 			return testsToRun;
 		}
@@ -23,6 +25,6 @@
 			testRunner.runWithFlexUnit4Runner(currentRunTestSuite(), "express_tests");
 		}
 ]]>
-</fx:Script>
+</mx:Script>
 <flexunit:FlexUnitTestRunnerUI id="testRunner"/>
-</s:WindowedApplication>
+</mx:WindowedApplication>

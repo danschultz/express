@@ -3,6 +3,8 @@
 <testsuite  name="Default Test Suite" project="express_tests">
 <testsuite name="express.tests:ExpressCoreTests" type="testsuiteclass"/>
 <testsuite name="express.date.tests:DatePrototypeTests" type="testsuiteclass"/>
+<testsuite name="express.reflection.tests:ReflectionPrototypeTests" type="testcaseclass"/>
+<testsuite name="express.range.tests:NumericRangeTests" type="testcaseclass"/>
 <testsuite name="express.date.tests:CreateDateTests" type="testcaseclass"/>
 </testsuite>
 </testrun>

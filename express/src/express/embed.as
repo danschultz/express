@@ -5,7 +5,7 @@ package express
 	 * 
 	 * @param clazz The class to initialize.
 	 */
-	public function express(clazz:Class):void
+	public function embed(clazz:Class):void
 	{
 		ExpressCore.getInstance().initialize(clazz);
 	}
